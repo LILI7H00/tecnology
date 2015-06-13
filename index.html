@@ -1,0 +1,250 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div class="imagen" id="page" data-role="page">
+	<div data-role="header">
+		<h1>Tecnology'S</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview" data-inset="true">
+			<li><a href="#page2" data-transition="slideup">Historia de las Computadoras </a></li>
+            <li><a href="#page3" data-transition="flip">Evolucion de las Computadoras</a></li>
+			<li><a href="#page4" data-transition="fade">Futuras Computadoras </a></li>
+            <li><a href="#page5" data-transition="pop">Principales Marcas </a></li>
+            <li><a href="#Ayuda" data-transition="slide"> Ayuda </a></li> 
+		</ul>		
+	</div>
+	<div data-role="footer" data-position="fixed">
+      <span class="daclic" style="font:10PT 'Comic Sans MS', cursive;"> Puchale aqui </span>
+    <a href="#Ayuda" data-role="button" data-theme="c">
+    Ayuda </a>
+   <h4>Tecnology'S</h4>
+	</div>
+</div>
+<div data-role="page" id="page2">
+	<div data-role="header">
+    <a data-direction"reverse" data-rel="back"> Atras </a>
+<h1> Historia de las computadoras </h1>
+	</div>
+  <div class="imagen" data-role="content">	
+		<img src= "historia-de-la-computadoras.jpg" width="250" height="150"> 
+        <span class="rojo">HISTORIA DE LA COMPUTACIÓN</span> Uno de los primeros dispositivos mecánicos para contar fue el ábaco, cuya historia se remonta a las antiguas civilizaciones griega y romana. Este dispositivo es muy sencillo, consta de cuentas ensartadas en varillas que a su vez están montadas en un marco rectangular. Al desplazar las cuentas sobre varillas, sus posiciones representan valores almacenados, y es mediante dichas posiciones que este representa y almacena datos. A este dispositivo no se le puede llamar computadora por carecer del elemento fundamental llamado programa.
+Otro de los inventos mecánicos fue la Pascalina inventada por Blaise Pascal (1623 - 1662) de Francia y la de Gottfried Wilhelm von Leibniz (1646 - 1716) de Alemania. Con estas máquinas, los datos se representaban mediante las posiciones de los engranajes, y los datos se introducían manualmente estableciendo dichas posiciones finales de las ruedas, de manera similar a como leemos los números en el cuentakilómetros de un automóvil. 
+
+   <a href="#page" class="azul"> PRINCIPAL </a>	
+	</div>
+	<div data-role="footer" data-position="fixed">
+	  <h4> Tecnology'S </h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+    <a data-direction"reverse" data-rel="back">Atras </a>
+		<h1>Evolucion de las Computadoras </h1>
+	</div>
+	<div data-role="content">	
+    <img src="1.jpg" width="150" height="100">
+    <img src="segunda.jpg" width="150" height="100">
+    <img src="tercera.jpg" width="150" height="100">
+<div data role="collapsible-set">
+      <div data-role="collapsible" data-collapsed="true">
+        <h1> Primera Generacion </h1>
+                <p> La primera generación de computadoras abarca desde el año 1938 hasta el año 1958, época en que la tecnología electrónica era a base de bulbos o tubos de vacío, y la comunicación era en términos de nivel más bajo que puede existir, que se conoce como lenguaje de máquina.
+
+Características:
+
+Estaban construidas con electrónica de válvulas.
+Se programaban en lenguaje de máquina.
+Un programa es un conjunto de instrucciones para que la máquina efectúe alguna tarea, y el lenguaje más simple en el que puede especificarse un programa se llama lenguaje de máquina (porque el programa debe escribirse mediante algún conjunto de códigos binarios).
+</p>
+</div>
+
+<div data-role="collapsible" data-collapsed="true">
+        <h1> Segunda Generacion </h1>
+        <p> La segunda generación de las computadoras reemplazó las válvulas de vacío por los transistores. Por eso, las computadoras de la segunda generación son más pequeñas y consumen menos electricidad que las de la anterior. La forma de comunicación con estas nuevas computadoras es mediante lenguajes más avanzados que el lenguaje de máquina, los cuales reciben el nombre de “lenguajes de alto nivel” o lenguajes de programación.
+
+Las características más relevantes de las computadoras de la segunda generación son:
+
+Estaban construidas con la electrónica de transistores
+Se programaban con lenguajes de alto nivel
+</p>
+
+</div>
+<div data-role="collapsible" data-collapsed="true">
+        <h1> Tercera Generacion </h1>
+        <p> 
+        La tercera generación de computadoras se desarrolló desde 1964 hasta 1971 y se caracterizó principalmente por la disminución del tamaño medio de las computadoras y por la incorporación de los circuitos integrados (chips de silicio).
+Si bien los circuitos integrados fueron inventados en 1958, tuvieron que transcurrir algunos años para que las grandes compañías crearan los dispositivos electrónicos adecuados en los que estos circuitos podrían ser utilizados.
+En abril de 1964 presentó su generación de computadoras IBM 360, y este acontecimiento inauguró lo que fue la tercera generación de computadoras.
+La tercera generación de computadoras logró, gracias a la utilización de circuitos integrados, una nueva disminución de volumen y costos y optimizó la velocidad en el funcionamiento de las grandes computadoras.
+Este hecho, además, hizo posible el desarrollo de un nuevo tipo de computadora de dimensiones más reducidas: la micro-computadora
+  </p>
+    </div>
+</div>		
+	</div>
+    <a href="#page" class="principal" > PRINCIPAL </a>
+	<div data-role="footer" data-position="fixed">
+		<h4> Tecnology'S </h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+    <a data-direction"reverse" data-rel="back">Atras </a>
+		<h1> Futuras Computadoras </h1>
+	</div>
+	<div data-role="content">	
+    
+    <img src="spider.jpg" width="150" height="100"> 
+    <img src="iWatch-futurista.png" width="150" height="100">
+    <img src="thumbnail12.jpg" width="150" height="100"> <span>EVOLUCION TECNOLOGICA</span>
+<P>
+  1. Asistentes personales de inteligencia artificial
+  
+  No estamos hablando exactamente de una Robotina, sino de una inteligencia artificial tataranieta de los asistentes virtuales que conocemos ahora como SIRI, pero para el 2030 sin duda esta tecnología será vista como una piedra comparada con lo que se espera: asistentes que respondan naturalmente a nuestros lenguajes e idiomas, incluyendo coloquialismos. Incluso hasta podrían sostener una plática con nosotros, y convertirse en cierta forma en un clon de nuestras mentes.
+  
+  2. Computadoras, computadoras everywhere
+  
+  A la fecha casi todos los procesos vitales para los humanos dependen de las computadoras, y las encontramos en todos lados: automóviles, teléfonos, refrigeradores y hasta en juguetes, pero aún son muy visibles y evidentes. Es posible que para el 2030 logremos esconderlas efectivamente, como en nuestra ropa, accesorios, o hasta en los lentes de contacto. Estarán en todos lados pero ya no nos daremos cuenta.
+  
+  3. Animales virtuales con mentes digitales
+  
+  Siendo realistas aún estamos lejos de emular el pensamiento humano con computadoras, pero seguramente en 20 años ya será posible emular el cerebro de muchos organismos simples, como el actual proyecto OpenWorm, que busca digitalizar el cerebro de un gusano. Así que, en unos años, emular el cerebro de otros organismos como moscas, hormigas o abejas nos acercará a hacer lo mismo con mamíferos simples como ratones, con la finalidad de que “vivan” dentro de las computadoras. La película de Avatar ya no sería una idea tan loca.
+  
+  4. Una Internet interplanetaria
+  
+  Ya sea que una empresa privada o algún gobierno lleguen a Marte, será alrededor del año 2030, pero una cosa segura es que lo primero que harán al llegar será establecer comunicación con la Tierra, y ¿qué mejor manera que Internet? Y es que con tanto planeta por explorar será necesario compartir información o comprar conforme se les vayan agotando los recursos. ¿Crees que eBay ofrezca envíos a Marte?
+  
+  5. Bebiendo agua marina
+  
+  Se espera que la desalinización del agua ya se logre a nivel industrial para el 2030. Esto será posible gracias a los avances en tecnología solar, con el establecimiento de plantas solares suficientemente grandes para separar la sal del mar con energía calorífica. Incluso los expertos opinan que el déficit de agua que el mundo experimenta podría comenzar a cubrirse a principios de 2020, aunque habría que preguntarse qué tan rápido seríamos capaces de acabarnos también esta agua.
+</P>
+<a href="#page" class="Principal"> PRINCIPAL </a>
+		
+  </div>
+	<div data-role="footer" data-position="fixed">
+		<h4> Tecnology'S</h4>
+	</div>
+</div>
+    
+<div data-role="page" id="page5">
+<div data-role="header">
+    <a data-direction"reverse" data-rel="back">Atras </a>
+		<h1>Principales Marcas </h1>
+	</div>
+<div class="imagen" data-role="content">	
+    <img src="marcass.png" width="300" height="150"> 
+    
+<div data-role="content">	
+		<table data-role="table">
+        <tbody>
+        <thead>
+        </thead>
+       
+        <tr>
+        <thead>
+          <th>MARCA</th>
+            <th>CARACTERISTICAS</th>
+            <th>PRECIO</th> 
+            </thead>
+            
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        
+      
+            
+        <tr>
+            <th>HP</th>
+            <th>4 RAM  500 HDD  PROCESADOR i3 </th>
+            <th>6000</th>
+        </tr>
+        
+        <tr>
+            <th>ASUS</th>
+            <th>4 RAM 500 HDD PROCESADOR i3</th>
+            <th>4000</th>
+        </tr>
+        
+         <tr>
+            <th>LENOVO</th>
+            <th>4 RAM 1TB PROCESADOR INTEL INSIDE </th>
+            <th>4250</th>
+        </tr>
+        
+         <tr>
+            <th>COMPAQ</th>
+            <th>2 RAM 250 HDD PROCESADOR AMD</th>
+            <th>2500</th>
+        </tr>
+        
+         <tr>
+            <th>ACER</th>
+            <th>2 RAM  250 HDD PROCESADO AMD</th>
+            <th>2500</th>
+        </tr>
+        
+         <tr>
+            <th>SONY VAIO </th>
+            <th>8 RAM 2 TB PROCESADOR i7</th>
+            <th>14000</th>
+           
+        </tr>
+        
+         <tr>
+            <th> DELL </th>
+            <th> 8 RAM 1TB PROCESADOR i5</th>
+            <th> 10000</th>
+        </tr>
+       
+        </tbody>
+        </table>
+        </tr>
+        
+        <a href="#page" class="Principal"> PRINCIPAL </a>
+	
+     </div>
+<div data-role="footer" data-position="fixed">
+		<h4> Tecnology'S </h4>
+	</div>
+</div>
+
+    <div data-role="page" id="Ayuda">
+    <div data-role="header">
+</div>
+        <div data-role="content">	
+		<div data-role="collapsible-set">
+        <div data-role="collapsible" data-collapsed="true">	
+        
+        <h1>  LILIANA MEJIA </h1>
+        <p> Maestria en Redes </p>
+        <p> Matricula NO ME LA SE </p>
+       
+        </div>
+        <div data-role="collapsible" data-collapsed="true">	
+        <h1> Ayuda </h1>
+        <p> Esta es la pagina de ayuda </p>
+        </div>
+        </div>
+        </div>
+
+</body>
+</html>
